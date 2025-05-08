@@ -26,7 +26,8 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
-
+  database: <%= ENV['DATABASE_URL'].split('/').last %>
   cable:
     <<: *default
     url: <%= ENV['DATABASE_URL'] %>
+    database: <%= ENV['DATABASE_URL'].split('/').last %>
