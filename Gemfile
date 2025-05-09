@@ -20,7 +20,7 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 5.0"
 # Use Sidekiq for background jobs
-gem "sidekiq", "~> 7.0"
+gem "sidekiq", "~> 8.0"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
